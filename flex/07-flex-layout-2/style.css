@@ -35,17 +35,44 @@ body {
   flex-direction: column;
 }
 
+.header {
+  display: flex;
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  align-items: center;
+  padding-left: 16px;
+}
+
 main {
   display: flex;
 }
 
 .cards {
+  padding: 48px;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-
+  gap: 32px;
+ 
 }
 
 .card {
-flex: 0 1 30%;
+  width: 300px;
+  padding: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar {
+  padding: 16px;
+  line-height: 2;
 }
