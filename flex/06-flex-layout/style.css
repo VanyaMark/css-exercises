@@ -8,6 +8,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 ul {
@@ -39,14 +41,30 @@ input {
   margin-bottom: 16px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
   width: 100vw;
+}
+
+.footer {
+  background-color: #eee;
 }
 
 .right-links, .left-links {
   display: flex;
   gap: 2rem;
   padding: 0 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+.buttons>button {
+  padding: 0.5rem;
+  margin: 0.3rem 0.15rem;
 }
