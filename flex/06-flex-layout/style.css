@@ -7,9 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: space-between;
 }
 
 ul {
@@ -61,7 +58,8 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 80vh;
+  justify-content: center;
+  flex: 1;
 }
 
 .buttons>button {
