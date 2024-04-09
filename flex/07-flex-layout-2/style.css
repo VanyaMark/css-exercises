@@ -33,6 +33,7 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .header {
@@ -46,6 +47,7 @@ body {
 
 main {
   display: flex;
+  flex: 1;
 }
 
 .cards {
@@ -75,4 +77,10 @@ a {
 .sidebar {
   padding: 16px;
   line-height: 2;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
